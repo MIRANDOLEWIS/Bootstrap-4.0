@@ -1,0 +1,100 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: monospace;
+	background-image:url(https://img.freepik.com/free-vector/handmade-whte-paper-texture_125540-947.jpg?size=626&ext=jpg);
+}
+
+.sec-1 h3{
+	padding:20px;
+
+}
+
+.sec-1 ul{
+	position:fixed;
+}
+
+.sec-1 a{
+	color: black;
+
+}
+
+.sec-1 li{
+	font-size:20px;
+	list-style:none;
+	padding:5px;
+    
+
+}
+
+
+.img-1{
+	margin-top:30px;
+}
+
+
+.img-2{
+	margin-top:20px;
+}
+
+.img-3{
+	margin-top:20px;
+}
+
+.sec-2 h3{
+	padding:24px;
+	margin:20px;
+}
+
+.sec-2 p{
+	padding:10px;
+}
+
+.pos{
+	position:fixed;
+}
+
+
+
+
+@media(max-width:992px){
+
+    
+    .sec-1 ul{
+
+	position:absolute;
+
+	
+     }
+
+     .pos{
+	position:absolute;
+}
+
+.sec-1 li{
+	list-style:none;
+	
+	display:inline;
+    
+
+     }
+
+
+}
+
+@media (max-width:989px){
+	.nav-bar{
+		height:200px;
+	}
+
+	.content{
+		height:500vh;
+	}
+
+	.widget{
+		height:200px;
+	}
+}
+
